@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>APOD</title>
+
+        <link rel="stylesheet" href="./index.css"/> 
+
+    </head>
+    <body>
+        
+        <div class="banner"><h1>Fato Astronômico do dia!</h1></div>
+
+        <main id="principal">
+
+            <div class="intro">
+                    
+                <p>A NASA é uma empresa super legal que nos mostra as coisas incríveis que existem no Universo Macroscópico!<br><br>
+                Existem coisas incríveis lá fora e várias delas foram fotografadas pelo super telescópio Hubble e até mesmo astronomos amadores!<br>
+                Neste site mostraremos todas as fotos que foram tiradas ao longo da história dessa empolgante exploração espacial.<br><br>
+                Surpreenda-se com o nosso fascinante universo!</p>
+            </div>
+            
+
+            <div class="conteudo">                
+                
+                   
+                <div class="seletor">
+    
+                    <div class="selectDate">
+                        <p>Selecione qualquer data até hoje.</p><br>
+                        <input id="date" type="date" min="1995-06-16">
+                        <button type="submit" id="submitBtn" onclick="btnClick()">Pronto!</button>
+                    </div><br><br><br>
+    
+                    <div class="apod">
+                        <div class="titulo"></div>
+                        <div class="apodContent">
+                            <div class="painelfoto"></div>
+                            <div class="historiafoto"></div>   
+                        </div>
+                        
+                    </div>
+    
+                </div>
+                
+            </div>
+            
+        </main>
+
+        <footer>
+            <div>Criado por Renato Negrelly</div>
+            <div>2022 - Resilia Educação</div>
+        </footer>
+
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="./index.js"></script>
+        
+    </body>
+
+</html>

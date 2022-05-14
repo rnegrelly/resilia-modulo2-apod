@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    
+    /*display: inline-block;*/
+    width: 100%;
+    height: 100vh;
+    font-family: helvetica;
+    background-color: rgb(52, 51, 51);
+    color: rgb(0, 183, 255);
+    text-shadow:black 1px 1px 2px;
+    
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 15px 20px;
+    font-size: 15px;
+    color: rgb(0, 183, 255);
+    
+}
+
+h1{
+    margin-top: 50px;
+}
+
+
+
+#principal{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    text-align: center;
+    /*height: 90vh;*/
+      
+}
+
+#submitBtn{
+    padding: 2px;
+    font-family: Verdana;
+    
+}
+
+#date{
+    font-family: Verdana;
+}
+
+#foto{
+    margin-bottom: 2em;
+}
+
+.banner{
+
+    display: block;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.intro{
+    margin: 50px;
+    padding: 50px;
+    background-color: rgba(13, 12, 12, 0.293);
+    border: 1px groove goldenrod;   
+    width: 70%;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.conteudo{
+
+    /*border: 1px red solid;*/
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+      
+    
+}
+
+.titulo{
+    text-align: left;
+}
+
+.painelfoto{
+    margin-top: 20px;
+}
+
+.historiafoto{
+    display: block;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+
+.apod{
+    margin: 10px;
+    margin-top: 10px;
+}
+
+.apodContent{
+    display: flex;
+    flex-direction: row;
+}
+
+/*@media (){
+
+}*/
+
+
+
+
+
+
